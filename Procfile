@@ -1,1 +1,1 @@
-web: nodeTapp.js
+web: node app.js
