@@ -30,7 +30,7 @@
       </ul>
       <ul>
         <li><a href="#">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
-        <li><a href="/login">Ingresá <i class="fas fa-sing-in-alt"></i></a></li>
+        <li><a href="#">Ingresá <i class="fas fa-sing-in-alt"></i></a></li>
         <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
       </ul>
     </nav>
@@ -39,7 +39,80 @@
     </div>
     </header>
     <main>
-              
+      <form action="/" method="GET" class="create-form">
+        <div class="control-form">
+          <!-- <label for="nombre">Nombre y apellido:</label> -->
+          <input type="text" name="nombre" placeholder="Nombre y apellido">
+        </div>
+        <div class="control-form">
+          <!-- <label for="usuario">Nombre de usuario:</label> -->
+          <input type="text" name="usuario" placeholder="Nombre de usuario">
+        </div>
+        <div class="control-form">
+          <!-- <label for="fechaNacimiento">Fecha de nacimiento</label> -->
+          <input type="date" name="fechaNacimiento" required>
+        </div>
+        <div class="control-form">
+          <!-- <label for="email">E-mail:</label> -->
+          <input type="email" name="email" placeholder="@mail">
+        </div>
+        <div class="control-form">
+          <!-- <label for="domicilio">Domicilio:</label> -->
+          <input type="text" name="domicilio" placeholder="Domicilio">
+        </div>
+        <div class="perfil">
+          <h3 class="title-profile">Perfil del usuario</h3>
+            <input type="radio" name="perfil" value="Comprador">Comprador
+            <!-- <label for="Comprador"></label> -->
+          
+          
+            <input type="radio" name="perfil" value="Vendedor">Vendedor
+            <!-- <label for="Vendedor"></label> -->
+          
+        </div>
+        <div class="control-form">
+          <h3 class="title-profile">Intereses</h3>
+
+          <div class="check-list">
+            <input type="checkbox" name="interes" value="electro">Electro
+            <!-- <label></label>   -->
+          </div>
+            
+          <div class="check-list">
+            <input type="checkbox" name="interes" value="moda">Moda
+            <!-- <label></label>   -->
+          </div>
+          
+          <div class="check-list">
+            <input type="checkbox" name="interes" value="hogar">Hogar
+            <!-- <label></label>   -->
+          </div>
+          
+          <div class="check-list">
+            <input type="checkbox" name="interes" value="jugueteria">Juguetería
+            <!-- <label></label>   -->
+          </div>
+          
+          <div class="check-list">
+            <input type="checkbox" name="interes" value="vidasana">Vida sana
+            <!-- <label></label>   -->
+          </div>
+          
+        </div>
+
+        <div class="control-form">
+
+        </div>
+        <div class="control-form">
+          <input type="password" name="password" placeholder="Contraseña">
+        </div>
+        <div class="control-form">
+          <input type="password" name="password" placeholder="Confirmar contraseña">
+        </div>
+        <!-- <div class="control-form"></div> -->
+        <button type="submit" value="Enviar" class="boton-enviar">Enviar</button>
+        <button type="reset" value="Enviar" class="boton-enviar">Enviar</button>
+      </form>      
     </main>
     <footer>
       <div class="footer-icons"><i class="far fa-credit-card"></i></div>

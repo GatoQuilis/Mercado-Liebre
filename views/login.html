@@ -30,7 +30,7 @@
       </ul>
       <ul>
         <li><a href="#">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
-        <li><a href="/login">Ingresá <i class="fas fa-sing-in-alt"></i></a></li>
+        <li><a href="#">Ingresá <i class="fas fa-sing-in-alt"></i></a></li>
         <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
       </ul>
     </nav>
@@ -39,7 +39,17 @@
     </div>
     </header>
     <main>
-    
+      <form action="/" method="GET" class="login-form">
+        <div class="control-form">
+          <label for="usuario">Nombre de usuario:</label>
+          <input type="text" name="usuario" placeholder="Nombre de usuario">
+        </div>
+        <div class="control-form">
+          <label for="password">Ingrese su contraseña:</label>
+          <input type="password" name="password" placeholder="Elegí tu contraseña">
+        </div>
+        <button type="submit" value="Enviar" class="boton-enviar">Enviar</button>
+      </form>
     </main>
     <footer>
       <div class="footer-icons"><i class="far fa-credit-card"></i></div>
