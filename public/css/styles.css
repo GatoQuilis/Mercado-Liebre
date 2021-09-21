@@ -216,6 +216,10 @@ main section article i{
     border-radius: 5px;
 }
 
+.btn {
+    cursor: pointer;
+}
+
 .title-profile {
     font-size: 16px;
     font-weight: 900;
