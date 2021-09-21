@@ -249,6 +249,10 @@ button {
 
 }
 
+button:hover {
+    bck: #0022AA;
+}
+
 @media (min-width: 480px) {
     .descripcion {
         display: block;
@@ -310,11 +314,11 @@ button {
       margin-left: 15px;
     }
 
-     footer {
+    footer {
         width: 95%;
         margin: 20px auto 0;
         padding: 15px 0;
-     }
+    }
   }
 
   @media (min-width: 1200px) {
