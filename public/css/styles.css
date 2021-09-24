@@ -250,7 +250,7 @@ button {
 }
 
 button:hover {
-    bck: #0022AA;
+    background-color: #0022AA;
 }
 
 @media (min-width: 480px) {
